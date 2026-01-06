@@ -35,13 +35,13 @@ A professional-grade **Real-Time Analyzer (RTA)** and **Spectrogram** web applic
 
 ## 🚀 Quick Start
 
-### Option 1: Open Locally
+### Option 1: Open Locally (recommend)
 1. Download or clone this repository
 2. Open `index.html` in a modern browser (Chrome, Firefox, Edge)
 3. Click **Start** and allow microphone access
 
 ### Option 2: Online
-Visit url: 
+Visit url: https://qphugit.github.io/audio-analyzer/
 
 ## 📖 User Guide
 
@@ -120,4 +120,5 @@ MIT License - Free for personal and commercial use.
 ---
 
 Made with ❤️ using Web Audio API
+
 
