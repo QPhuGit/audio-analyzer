@@ -40,8 +40,8 @@ A professional-grade **Real-Time Analyzer (RTA)** and **Spectrogram** web applic
 2. Open `index.html` in a modern browser (Chrome, Firefox, Edge)
 3. Click **Start** and allow microphone access
 
-### Option 2: Host on GitHub Pages
-See [Hosting Guide](#-hosting-on-github-pages) below.
+### Option 2: Online
+Visit url: 
 
 ## 📖 User Guide
 
@@ -94,44 +94,6 @@ Example: If reference shows 85 dB and app shows -45 dB:
 Calibration = 85 - (-45) = 130 dB
 ```
 
-## 🌐 Hosting on GitHub Pages
-
-### Step 1: Create GitHub Repository
-1. Go to [github.com](https://github.com) and sign in
-2. Click **+** → **New repository**
-3. Name it `audio-analyzer` (or any name)
-4. Set to **Public**
-5. Click **Create repository**
-
-### Step 2: Upload Files
-**Option A: Using GitHub Web Interface**
-1. Click **uploading an existing file**
-2. Drag and drop: `index.html`, `style.css`, `app.js`
-3. Click **Commit changes**
-
-**Option B: Using Git Command Line**
-```bash
-cd "k:/GitLab Project/RTAweb"
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/audio-analyzer.git
-git push -u origin main
-```
-
-### Step 3: Enable GitHub Pages
-1. Go to repository **Settings** → **Pages**
-2. Under "Source", select **Deploy from a branch**
-3. Select **main** branch and **/ (root)** folder
-4. Click **Save**
-
-### Step 4: Access Your Site
-After a few minutes, your app will be live at:
-```
-https://YOUR_USERNAME.github.io/audio-analyzer/
-```
-
 ## 🔒 Browser Requirements
 
 - **Modern browser**: Chrome 66+, Firefox 60+, Edge 79+, Safari 14.1+
@@ -158,3 +120,4 @@ MIT License - Free for personal and commercial use.
 ---
 
 Made with ❤️ using Web Audio API
+
