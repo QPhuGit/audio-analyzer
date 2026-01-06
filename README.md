@@ -2,7 +2,7 @@
 
 A professional-grade **Real-Time Analyzer (RTA)** and **Spectrogram** web application built with the Web Audio API. Analyze audio frequencies in real-time with octave band analysis, musical note detection, and more.
 
-![Audio Analyzer Screenshot](screenshot.png)
+![Audio Analyzer Screenshot](Screenshot.png)
 
 ## ✨ Features
 
@@ -120,5 +120,6 @@ MIT License - Free for personal and commercial use.
 ---
 
 Made with ❤️ using Web Audio API
+
 
 
